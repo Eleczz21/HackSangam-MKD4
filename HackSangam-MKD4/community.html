@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community/Post thread</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>कृषिMitra</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Latest Threads</a></li>
+            <li><a href="#">General Discussion</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Local News and Weather</a></li>
+            <li><a href="#">Post Thread</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="dropdown">
+          <button class="dropbtn">Selct a Section</button>
+          <div class="dropdown-content">
+            <a href="#">Genral Discussion</a>
+            <a href="#">Events</a>
+            <a href="#">Local News</a>
+            <a href="#">Weather</a>
+          </div>
+        </div>
+
+        <section class="post-thread">
+            <h2>Post a New Thread</h2>
+            <form id="post-form">
+                <label for="thread-title">Thread Title:</label><br>
+                <input type="text" id="thread-title" name="thread-title"><br>
+                <label for="thread-content">Thread Content:</label><br>
+                <textarea id="thread-content" name="thread-content"></textarea><br>
+                <input type="submit" value="Post Thread">
+            </form>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Local Community Forum</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

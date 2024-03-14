@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /*background-image: url("../../assests/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA2L3Y5MjEtYXVkaS13aXQtMDM2LWEteC5qcGc.webp")*/
+}
+
+header, nav, main, footer {
+    margin: 20px;
+}
+header{
+    background-color: rgba(13, 98, 13, 0.68);
+    margin: 0;
+    padding: 1px;
+}
+header h1 {
+    text-align: center;
+}
+nav{
+    background-color: rgba(13, 98, 13, 0.42);
+    margin: 0;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.4); 
+    padding: 4px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+nav ul li:hover{
+    background-color: azure;
+}
+nav ul li a:hover {
+    color: #000;
+}
+
+section.forum, section.latest-threads {
+    float: left;
+    width: 45%;
+    margin-right: 10px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+/* Same CSS as before */
+
+section.post-thread{
+    position: relative;
+    background-color: rgba(144, 152, 146, 0.21);
+    width: 40%;
+    margin-top: 50px; 
+    padding: 0 0 190px 0;
+    border-radius: 5px;
+    left: 30%;
+}
+
+section.post-thread h2 {
+    text-align: center;
+    padding-top:10px;
+    margin-bottom: 10px;
+}
+section #post-form{
+    position: relative;
+    left : 35%;
+    margin: 60px 0 20px 0; 
+}
+input .thread-title{
+    margin: 30px;
+}
+
+/* Style the dropdown button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(115, 247, 137);
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  border-radius: 12px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
